@@ -1,0 +1,25 @@
+{
+	"name": "TimeTrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "gittosadump",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 15,
+				"startTime": "2026-02-15T07:14:00",
+				"endTime": "2026-02-16T07:20:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

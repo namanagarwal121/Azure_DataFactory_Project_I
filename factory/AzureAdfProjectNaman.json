@@ -1,0 +1,9 @@
+{
+	"name": "AzureAdfProjectNaman",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "66768f6f-a304-4976-b136-cf3c4f8556fe",
+		"tenantId": "546be867-0dc2-4dd7-9abd-d96cf642dff2"
+	}
+}
